@@ -1,0 +1,8 @@
+post http://localhost:3001/api/notes
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IjEyMyIsImlkIjoiNjdhYjE2YWY1NWVlNjUyMjExYjdiYjRlIiwiaWF0IjoxNzM5MjY3MjM0fQ.-AvIp5EwxTtxcF1MMA-xTKHfD2LBrxQ2BGjQp8Jq8w0
+
+{
+  "title": "My new note",
+  "content": "This is my new note",
+}
